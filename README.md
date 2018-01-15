@@ -1,5 +1,5 @@
 # robotCNN
-Supervised learning with a Convolutional Neural Network to control a linear robotic slider with hand gestures. The CNN is trained and used for inference on a PC, with movement commands sent over USB serial communication to a microcontoller. The CNN classifies webcamera images for the classes 'left', 'right', and 'stop'. The network is built and trained using [Pytorch](http://pytorch.org/). A GPU is highly recommended, but CPU usage is also supported. 
+Supervised learning with a Convolutional Neural Network to control a linear robotic slider with hand gestures. The CNN is trained and used for inference on a PC, with movement commands sent over USB serial communication to a microcontoller. The CNN classifies webcamera images for the classes 'left', 'right', and 'stop'. The network is built and trained using [Pytorch](http://pytorch.org/). A GPU is highly recommended, but CPU usage is also supported. The blog post for this project is [here](https://cascino.github.io/Abstract-Robotic-Control-with-Convolutional-Neural-Networks/).
 <p align="center", text-align="center">
   <img src="/images/infer.gif" width="450"><br>
   Neural Network inference on pointing hand gestures
